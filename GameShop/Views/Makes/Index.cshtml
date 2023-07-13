@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    td, th {
+        padding: 15px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Games</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (Make item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Games.ToList().Count</td>
+                
+            </tr>
+        }
+
+    </tbody>
+</table>
+<a asp-controller="Makes" asp-action="Add">Add a Make</a>

@@ -1,0 +1,92 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-GameShop-79A7A4CE-4E92-4B37-9733-54F987E504EF</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\animate.css" />
+    <Content Remove="wwwroot\css\flex-slider.css" />
+    <Content Remove="wwwroot\css\fontawesome.css" />
+    <Content Remove="wwwroot\css\owl.css" />
+    <Content Remove="wwwroot\css\templatemo-lugx-gaming.css" />
+    <Content Remove="wwwroot\images\banner-bg.jpg" />
+    <Content Remove="wwwroot\images\banner-image.jpg" />
+    <Content Remove="wwwroot\images\caption-dec.png" />
+    <Content Remove="wwwroot\images\cta-bg.jpg" />
+    <Content Remove="wwwroot\images\footer-bg.jpg" />
+    <Content Remove="wwwroot\images\logo.png" />
+    <Content Remove="wwwroot\images\page-heading-bg.jpg" />
+    <Content Remove="wwwroot\images\single-game.jpg" />
+    <Content Remove="wwwroot\images\trending-02.jpg" />
+    <Content Remove="wwwroot\js\counter.js" />
+    <Content Remove="wwwroot\js\custom.js" />
+    <Content Remove="wwwroot\js\isotope.min.js" />
+    <Content Remove="wwwroot\js\owl-carousel.js" />
+    <Content Remove="wwwroot\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\vendor\jquery\jquery.js" />
+    <Content Remove="wwwroot\vendor\jquery\jquery.min.js" />
+    <Content Remove="wwwroot\vendor\jquery\jquery.min.map" />
+    <Content Remove="wwwroot\vendor\jquery\jquery.slim.js" />
+    <Content Remove="wwwroot\vendor\jquery\jquery.slim.min.js" />
+    <Content Remove="wwwroot\vendor\jquery\jquery.slim.min.map" />
+    <Content Remove="wwwroot\webfonts\fa-brands-400.ttf" />
+    <Content Remove="wwwroot\webfonts\fa-brands-400.woff2" />
+    <Content Remove="wwwroot\webfonts\fa-regular-400.ttf" />
+    <Content Remove="wwwroot\webfonts\fa-regular-400.woff2" />
+    <Content Remove="wwwroot\webfonts\fa-solid-900.ttf" />
+    <Content Remove="wwwroot\webfonts\fa-solid-900.woff2" />
+    <Content Remove="wwwroot\webfonts\fa-v4compatibility.ttf" />
+    <Content Remove="wwwroot\webfonts\fa-v4compatibility.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\animate.css" />
+    <None Include="wwwroot\css\flex-slider.css" />
+    <None Include="wwwroot\css\fontawesome.css" />
+    <None Include="wwwroot\css\owl.css" />
+    <None Include="wwwroot\css\templatemo-lugx-gaming.css" />
+    <None Include="wwwroot\images\banner-bg.jpg" />
+    <None Include="wwwroot\images\banner-image.jpg" />
+    <None Include="wwwroot\images\caption-dec.png" />
+    <None Include="wwwroot\images\cta-bg.jpg" />
+    <None Include="wwwroot\images\footer-bg.jpg" />
+    <None Include="wwwroot\images\logo.png" />
+    <None Include="wwwroot\images\page-heading-bg.jpg" />
+    <None Include="wwwroot\images\single-game.jpg" />
+    <None Include="wwwroot\images\trending-02.jpg" />
+    <None Include="wwwroot\js\counter.js" />
+    <None Include="wwwroot\js\custom.js" />
+    <None Include="wwwroot\js\isotope.min.js" />
+    <None Include="wwwroot\js\owl-carousel.js" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\vendor\jquery\jquery.js" />
+    <None Include="wwwroot\vendor\jquery\jquery.min.js" />
+    <None Include="wwwroot\vendor\jquery\jquery.min.map" />
+    <None Include="wwwroot\vendor\jquery\jquery.slim.js" />
+    <None Include="wwwroot\vendor\jquery\jquery.slim.min.js" />
+    <None Include="wwwroot\vendor\jquery\jquery.slim.min.map" />
+    <None Include="wwwroot\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\webfonts\fa-v4compatibility.ttf" />
+    <None Include="wwwroot\webfonts\fa-v4compatibility.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.8" />
+  </ItemGroup>
+
+</Project>

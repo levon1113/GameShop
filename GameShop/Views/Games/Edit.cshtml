@@ -1,0 +1,42 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@model Game
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <input asp-for="Description" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="Image">Image Path</label>
+        <input asp-for="Image" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="Make">Select Make</label>
+        <select class="form-control" asp-for="MakeId" required>
+            @foreach (Make make in ViewBag.Makes)
+            {
+                <option value="@make.Id">@make</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Genre">Select Genre</label>
+        <select class="form-control" asp-for="Genre" required>
+            @foreach (var genre in Enum.GetValues(typeof(Genre)))
+            {
+                <option value="@genre">@genre</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Edit Game</button>
+</form>
